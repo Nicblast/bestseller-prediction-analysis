@@ -23,35 +23,29 @@ In essence, the core challenge is deciding which books to stock, in what quantit
 
 This recent years trands explorations will allow to answer some of those question by proving key insights based on real world data anad consumer's behaviour. Aamazon's besteller's list comaopred to other lists such as the new New York Times, even if less data is colected and the future is unpredictabel, provides the major vantage that reflects actual recent trands, preferences and on what readers and non reader alike are willing to spend their money on.
 
-Business Analysis:
+## Business Analysis
 
-> **Which books sold the most copyes in recent years and are in constant high demnand?**
+Which books have sold the most copies in recent years and demonstrate sustained high demand?
 
-We will tackle first the upper part of our ranking.
+We begin by analyzing the highest-performing titles based on a combination of metrics, including number of reviews, ratings, frequency of appearance, and an aggregated popularity score.
 
-Already from the first analysis, comparing metrics such as numbers of rwviews, rating, apparences and giving a populairty score, the top names are quite clear.
-"Fourth Wing" by Rebecca Yarrow and "The Housemade" by Feida MccFedden dominate the ranking, closley followed by "Verity", "Onix Storm" and "Iron Flame.
+From the initial analysis, clear leaders emerge. “Fourth Wing” by Rebecca Yarros and “The Housemaid” by Freida McFadden consistently dominate the rankings, closely followed by titles such as “Verity”, “Onyx Storm”, and “Iron Flame”.
 
+![IMG_3345](https://github.com/user-attachments/assets/485e79d5-f239-4616-a081-2f3666dc501a)
 
-![image](https://github.com/user-attachments/assets/eeabe6dd-406f-4dd6-a595-3e7887c80c04)
+A key insight from this initial view is that demand appears to be driven less by individual standalone titles and more by book series. This pattern is crucial from a retail perspective, as it suggests strong cross-title engagement within the same author universe.
 
+In practice, readers who purchase the first book in a series are highly likely to continue with subsequent installments, creating a repeat purchase effect. This behavior significantly increases the long-term value of series-based titles.
+As a result, these books represent high-value inventory for retailers and should be prioritized in both stocking decisions and shelf placement.
 
-However, the most interesting insight, that will also prove to be a pattern during this first glance at our data is that: It is not the title per-se that seems to drive sales and demand, but the series.
+This pattern is further reinforced in the lower portion of the ranking, where multiple entries from the same series continue to appear among top-performing titles:
 
-This is crucilal because we can drawn a precious consumer's behavior insight that can be epxploited in favour of retailer. It is in fact clear that the reader that buys the first book of the series is very likely to also follow through with the next book of the serie, and then again and again, in doing so creating a chain reaction of repeat-purchase.
+![IMG_3345](https://github.com/user-attachments/assets/a73d2e24-bbc9-47bb-9ed6-8fd341beec5f)
 
-Those titles are clearly nothing less than potential goldmine for retailers, and they shoudl have priority in stocking and shelving.
-
-As for the second part of our ranking confirms the repeat buy phenomenon.
-
-![IMG_3345](https://github.com/user-attachments/assets/0097d7b8-6e42-4433-ad07-fb404aad5f26)
-
-"The Housemaid is Watching".
-"The Housemaid's Secret"
-"A Court Of Thorns and Roses".
-"A Court Of Myst And Fury".
-"A Court of Wings and Ruins".
-
+Examples include:
+“The Housemaid’s Secret”, “The Housemaid Is Watching”
+“A Court of Thorns and Roses”, “A Court of Mist and Fury”, “A Court of Wings and Ruin”
+These observations confirm the repeat-purchase phenomenon and highlight the importance of series-driven demand in driving sustained bestseller performance
 
 
 

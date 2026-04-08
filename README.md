@@ -27,9 +27,11 @@ This recent years trands explorations will allow to answer some of those questio
 
 Which books have sold the most copies in recent years and demonstrate sustained high demand?
 
-We begin by analyzing the highest-performing titles based on a combination of metrics, including number of reviews, ratings, frequency of appearance, and an aggregated popularity score.
+We begin by analyzing the highest-performing titles based on a combination of metrics, including number of reviews, ratings, frequency of appearance, and an aggregated popularity score across the years 2023, 2024 and 2025 for the bigger picture. And then we narrowed down our dataset to 2024 and 2025 find out the very recent trrands and patterns of the readers.
 
-From the initial analysis, clear leaders emerge. “Fourth Wing” by Rebecca Yarros and “The Housemaid” by Freida McFadden consistently dominate the rankings, closely followed by titles such as “Verity”, “Onyx Storm”, and “Iron Flame”.
+From our "popularity score" analysis, clear leaders emerge. “Fourth Wing” by Rebecca Yarros and “The Housemaid” by Freida McFadden consistently dominate the rankings, closely followed by titles such as “Verity”, “Onyx Storm”, and “Iron Flame”.
+
+This is confirmed in our chart:
 
 ![IMG_3345](https://github.com/user-attachments/assets/485e79d5-f239-4616-a081-2f3666dc501a)
 
@@ -47,8 +49,31 @@ Examples include:
 “A Court of Thorns and Roses”, “A Court of Mist and Fury”, “A Court of Wings and Ruin”
 These observations confirm the repeat-purchase phenomenon and highlight the importance of series-driven demand in driving sustained bestseller performance
 
+## Dual Track Market Value
 
+Which titles brings the lowest risk and guarantees the highest ROI?
 
+Before narrowing down our data, "Normalization" was used to scale review data and enable fair comparison (comparison only) across titles and years by reducing the impact of extreme values. This helped identify relative performance and consistency patterns, although data inconsistencies in 2023 limited its reliability for final analysis.
+
+![IMG_3367](https://github.com/user-attachments/assets/40cce822-976d-4348-b59c-edac08bcae82)
+
+Interestingly, the normalized data identifies "The Housemaid" as the absolute market benchmark, maintaining a maximum saturation score of 1.0 that serves as the ceiling for all the other titles. 
+
+![IMG_3366](https://github.com/user-attachments/assets/53fd518d-21b6-4655-8c74-3ba76eb9776a)
+
+While Fourth Wing and its sequels show strong, stable engagement, older hits like the ACOTAR series have seen their relative impact drop significantly, signaling a transition from active growth to legacy status. Consequently, this seemingly contrasting information form the previous chart might suggests that the 2026/27 strategy should focus on the rising momentum of specific sequels like The Housemaid's Secret, which are successfully converting existing brand loyalty into sustained market dominance.
+
+The insights integrate perfectly because they map the two different ways a book dominates a market: viral momentum versus absolute volume. While the first chart shows Fourth Wing as the fastest-growing breakout star in terms of raw popularity, the normalized heatmap reveals that The Housemaid remains the industry’s "gold standard" for consistent, peak-level engagement. Together, these datasets suggest a dual-track strategy for 2026/27 that prioritizes maintaining the, reliable floor established by The Housemaid while at the same time aggressively scaling the high-velocity growth seen in the Fourth Wing and Onyx Storm series.
+
+## The Populaity Score applied to authors
+
+What authros should be reserved priority to in the following years with new releases?
+
+![IMG_3369](https://github.com/user-attachments/assets/5569a7bd-ff4b-4e7d-a05f-1d0c6d95c125)
+
+To finish off our analysis, we also applied our popularity score to authors. It did not come as as surprise that altough the dataset was now ranging 2024 - 2025. It further confirmed the dual-track market value insight we got out all 3 years comparison. Thsi conforms that, despite the 2024 performance platoeu, established authors like Freida McFadden continue to provide a high-performance ceiling and a guaranteed revenue floor that anchors the market. Consequently, priority for 2026/27 releases should be reserved for McFadden to maintain this absolute stability, while simultaneously fast-tracking new titles from Rebecca Yarros to capitalize on the explosive, viral momentum that currently leads the industry's growth curve.
+
+Ultimately, these authors represent the "critical path" for retail success, as their upcoming releases are what the vast majority of readers entering a bookstore or browsing Amazon are most likely to pre-order or buy on sight.
 
 ---
 

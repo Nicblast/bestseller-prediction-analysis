@@ -51,31 +51,38 @@ These observations confirm the repeat-purchase phenomenon and highlight the impo
 
 ## Dual Track Market Value
 
-Which titles brings the lowest risk and guarantees the highest ROI?
+Which titles bring the lowest risk and guarantee the highest ROI?
 
 Before narrowing down our data, "Normalization" was used to scale review data and enable fair comparison (comparison only) across titles and years by reducing the impact of extreme values. This helped identify relative performance and consistency patterns, although data inconsistencies in 2023 limited its reliability for final analysis.
 
-![IMG_3367](https://github.com/user-attachments/assets/40cce822-976d-4348-b59c-edac08bcae82)
+![IMG_3367](https://github.com/user-attachments/assets/a66aff77-75c0-4b7c-a395-2c869edbcfa0)
 
-Interestingly, the normalized data identifies "The Housemaid" as the absolute market benchmark, maintaining a maximum saturation score of 1.0 that serves as the ceiling for all the other titles. 
+Interestingly, the normalized data identifies "The Housemaid" as the absolute market benchmark, maintaining a maximum saturation score of 1.0 that serves as the ceiling for all the other titles.
 
-![IMG_3366](https://github.com/user-attachments/assets/53fd518d-21b6-4655-8c74-3ba76eb9776a)
+![IMG_3366](https://github.com/user-attachments/assets/f4399a33-7314-4a98-9562-559001cf2c19)
 
-While Fourth Wing and its sequels show strong, stable engagement, older hits like the ACOTAR series have seen their relative impact drop significantly, signaling a transition from active growth to legacy status. Consequently, this seemingly contrasting information form the previous chart might suggests that the 2026/27 strategy should focus on the rising momentum of specific sequels like The Housemaid's Secret, which are successfully converting existing brand loyalty into sustained market dominance.
+While Fourth Wing and its sequels show strong, stable engagement, older hits like the ACOTAR series have seen their relative impact drop significantly, signaling a transition from active growth to legacy status. 
 
-The insights integrate perfectly because they map the two different ways a book dominates a market: viral momentum versus absolute volume. While the first chart shows Fourth Wing as the fastest-growing breakout star in terms of raw popularity, the normalized heatmap reveals that The Housemaid remains the industry’s "gold standard" for consistent, peak-level engagement. Together, these datasets suggest a dual-track strategy for 2026/27 that prioritizes maintaining the, reliable floor established by The Housemaid while at the same time aggressively scaling the high-velocity growth seen in the Fourth Wing and Onyx Storm series.
+Consequently, this seemingly contrasting information from the previous chart might suggest that the 2026/27 strategy should focus on the rising momentum of specific sequels like The Housemaid's Secret, which are successfully converting existing brand loyalty into sustained market dominance.
 
-## The Populaity Score applied to authors
+The insights integrate perfectly because they map the two different ways a book dominates a market: viral momentum versus absolute volume. While the first chart shows Fourth Wing as the fastest-growing breakout star in terms of raw popularity, the normalized heatmap reveals that The Housemaid remains the industry’s "gold standard" for consistent, peak-level engagement. 
 
-What authros should be reserved priority to in the following years with new releases?
+Together, these datasets suggest a dual-track strategy for 2026/27 that prioritizes maintaining the reliable floor established by The Housemaid while at the same time aggressively scaling the high-velocity growth seen in the Fourth Wing and Onyx Storm series.
 
-![IMG_3369](https://github.com/user-attachments/assets/5569a7bd-ff4b-4e7d-a05f-1d0c6d95c125)
+## The Popularity Score applied to authors
 
-To finish off our analysis, we also applied our popularity score to authors. It did not come as as surprise that altough the dataset was now ranging 2024 - 2025. It further confirmed the dual-track market value insight we got out all 3 years comparison. Thsi conforms that, despite the 2024 performance platoeu, established authors like Freida McFadden continue to provide a high-performance ceiling and a guaranteed revenue floor that anchors the market. Consequently, priority for 2026/27 releases should be reserved for McFadden to maintain this absolute stability, while simultaneously fast-tracking new titles from Rebecca Yarros to capitalize on the explosive, viral momentum that currently leads the industry's growth curve.
+What authors should be given priority in the following years with new releases?
+
+![IMG_3369](https://github.com/user-attachments/assets/0378176c-044e-4d54-a67b-e923a3306b2a)
+
+To finish off our analysis, we also applied our popularity score to authors. It did not come as a surprise that although the dataset was now limited to 2024–2025, it further confirmed the dual-track market value insight we obtained from the full three-year comparison. This confirms that, despite the 2024 performance plateau, established authors like Freida McFadden continue to provide a high-performance ceiling and a guaranteed revenue floor that anchors the market. 
+
+Consequently, priority for 2026/27 releases should be reserved for McFadden to maintain this absolute stability, while simultaneously fast-tracking new titles from Rebecca Yarros to capitalize on the explosive, viral momentum that currently drives the industry's growth curve.
 
 Ultimately, these authors represent the "critical path" for retail success, as their upcoming releases are what the vast majority of readers entering a bookstore or browsing Amazon are most likely to pre-order or buy on sight.
 
----
+--
+
 
 ## 📊 Dataset
 - Source: [Add source if available]

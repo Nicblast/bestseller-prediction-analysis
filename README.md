@@ -71,7 +71,7 @@ Together, these datasets suggest a dual-track strategy for 2026/27 that prioriti
 
 ## The Popularity Score applied to authors
 
-**What authors should be given priority in the following years with new releases?** 
+**Which author should be given priority in the following years with new releases?** 
 
 ![IMG_3369](https://github.com/user-attachments/assets/0378176c-044e-4d54-a67b-e923a3306b2a)
 
@@ -87,7 +87,7 @@ Ultimately, these authors represent the "critical path" for retail success, as t
 
 * **Source:** Amazon Best Sellers lists (https://www.amazon.com/gp/bestsellers/2025/books)
 * **Time range:** 2024–2025 (with initial exploration including 2023)
-* **Collectio method:** Manual extraction of the top 100 bestselling books per year
+* **Collection method:** Manual extraction of the top 100 bestselling books per year
 * **Data storage:** Consolidated into a structured Excel file for analysis
 * **Key features:** Title, Author, Number of Reviews, Rating, Price, Year
 * **Scope:** Cross-sectional and time-based comparison of bestseller performance
@@ -177,3 +177,18 @@ Overall, the findings support a strategy centered on prioritizing proven high de
 
 ---
 
+## **Limitations of the Analysis**
+
+- **Data source scope:** The dataset is based on Amazon’s Top 100 Bestsellers list and does not represent the entire book market or all consumer segments.
+
+- **Selection bias:** Bestseller lists inherently focus on high-performing titles, which may overrepresent popular genres and underrepresent niche or emerging categories.
+
+- **Data consistency issues:** Some inconsistencies were identified in earlier years (notably 2023), including missing values and irregularities, which limited their reliability and led to a focus on 2024–2025.
+
+- **Title standardization assumptions:** Book titles were cleaned and standardized to merge variants (e.g., subtitles and special editions). While necessary, this may introduce minor aggregation approximations.
+
+- **Proxy metrics for demand:** Metrics such as number of reviews and ratings are used as proxies for popularity and demand, but they do not perfectly measure actual sales volume.
+
+- **Lack of external factors:** The analysis does not account for external influences such as marketing campaigns, seasonal effects, pricing strategies over time, or publisher promotions.
+
+- **Time window limitation:** The analysis focuses on recent years (2023, 2024–2025), which may not fully capture long-term historical trends or future shifts in reader preferences.

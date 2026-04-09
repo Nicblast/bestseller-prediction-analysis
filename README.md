@@ -51,7 +51,7 @@ These observations confirm the repeat-purchase phenomenon and highlight the impo
 
 ## Dual Track Market Value
 
-Which titles bring the lowest risk and guarantee the highest ROI?
+**Which titles bring the lowest risk and guarantee the highest ROI?**
 
 Before narrowing down our data, "Normalization" was used to scale review data and enable fair comparison (comparison only) across titles and years by reducing the impact of extreme values. This helped identify relative performance and consistency patterns, although data inconsistencies in 2023 limited its reliability for final analysis.
 
@@ -71,7 +71,7 @@ Together, these datasets suggest a dual-track strategy for 2026/27 that prioriti
 
 ## The Popularity Score applied to authors
 
-What authors should be given priority in the following years with new releases?
+**What authors should be given priority in the following years with new releases?** 
 
 ![IMG_3369](https://github.com/user-attachments/assets/0378176c-044e-4d54-a67b-e923a3306b2a)
 
@@ -85,67 +85,95 @@ Ultimately, these authors represent the "critical path" for retail success, as t
 
 ## Dataset
 
--Source: Amazon Best Sellers lists (https://www.amazon.com/gp/bestsellers/2025/books)
--Time range: 2024–2025 (with initial exploration including 2023)
--Collection method: Manual extraction of the top 100 bestselling books per year
--Data storage: Consolidated into a structured Excel file for analysis
--Key features: Title, Author, Number of Reviews, Rating, Price, Year
--Scope: Cross-sectional and time-based comparison of bestseller performance
+* **Source:** Amazon Best Sellers lists (https://www.amazon.com/gp/bestsellers/2025/books)
+* **Time range:** 2024–2025 (with initial exploration including 2023)
+* **Collectio method:** Manual extraction of the top 100 bestselling books per year
+* **Data storage:** Consolidated into a structured Excel file for analysis
+* **Key features:** Title, Author, Number of Reviews, Rating, Price, Year
+* **Scope:** Cross-sectional and time-based comparison of bestseller performance
 
-Limitations:
+**Limitations:**
 
-Manual data collection may introduce inconsistencies
-Bestseller lists reflect Amazon-specific consumer behavior
-Missing or inconsistent data for certain years (e.g., 2023)
+* Manual data collection may introduce inconsistencies
+* Bestseller lists reflect Amazon-specific consumer behavior
+* Missing or inconsistent data for certain years (e.g., 2023)
 
-
----
-
-## 🧹 Data Cleaning & Preparation
-- Handled missing values (e.g., Author, Price)
-- Converted price to numeric format
-- Standardized book titles (removed duplicates and variations)
-- Created a **Clean Title** field to merge editions
-- Excluded 2023 due to inconsistent and skewed data
 
 ---
 
-## 🧠 Methodology
-- Aggregated data by book title
-- Created key metrics:
-  - Average Rating
-  - Average Number of Reviews
-  - Appearances (frequency across dataset)
-- Built a **Popularity Score** combining:
-  - Demand (reviews)
-  - Quality (rating)
-  - Consistency (appearances)
-- Identified top-performing books based on this score
+## **Data Cleaning & Preparation**
+
+The raw dataset required several cleaning and preprocessing steps to ensure consistency and reliability before analysis.
+
+- **Standardization of book titles:**  
+  Book titles were normalized by removing additional descriptors (e.g., editions, subtitles in parentheses) and standardizing text formatting (case, spacing). This was necessary to correctly aggregate duplicate entries of the same title.
+
+- **Handling duplicates:**  
+  Multiple entries of the same book across years and editions were consolidated to avoid fragmentation in the analysis and to ensure accurate comparisons.
+
+- **Data type consistency:**  
+  Numerical fields such as *Number of Reviews*, *Rating*, and *Price* were converted to appropriate numeric formats to enable aggregation and effective statistical analysis.
+
+- **Missing values treatment:**  
+  Missing or incomplete values were addressed where possible,(not always). Records with significant inconsistencies were either corrected or excluded from specific analyses to maintain data integrity.
+
+- **Year filtering:**  
+  The dataset was segmented by year (2023–2025). Due to too many inconsistencies and incomplete data in 2023, the final analysis focuses primarily on 2024 and 2025 to ensure comparability.
+
+- **Feature preparation:**  
+  Additional derived metrics (e.g., Popularity Score) were created by combining relevant variables such as number of reviews, rating, and frequency of appearance to better capture overall book performance.
+
+---
+
+## **Methodology**
+
+The analysis followed a structured data-driven approach combining preprocessing, aggregation, and exploratory analysis. After cleaning and standardizing the dataset, records were grouped by key dimensions such as *Book Title* and *Author* to evaluate performance across years.
+
+Exploratory Data Analysis (EDA) was performed to understand distributions and identify patterns in ratings, review counts, pricing, and title frequency. Comparisons were then made across 2024 and 2025 to assess consistency and identify stable versus emerging bestsellers.
+
+To enable consistent ranking, a *Popularity Score* was derived by combining multiple performance indicators into a single metric. In parallel, normalization techniques were applied to standardize review counts and support fair visual comparison across titles and years.
+
+Finally, visualizations such as charts and heatmaps were used to surface trends and support interpretation of the results, enabling clear identification of top-performing books and authors.
 
 ---
 
 ## 📈 Key Insights
 
-- **Top Performers**: Certain books (e.g., *Fourth Wing*, *The Housemaid*) consistently dominate across years.
-- **Stable Demand**: Minimal variation in performance suggests sustained popularity.
-- **Series & Author Strength**: Multiple titles from the same authors/series perform strongly.
-- **Market Concentration**: A small number of books drive the majority of engagement.
+- **Top Performers:** Titles such as *Fourth Wing*, *The Housemaid*, *Verity*, and *Onyx Storm* consistently dominate the ranking across the analyzed years.
+
+- **Series-Driven Purchases:** The highest performing books are often part of the same series or share the same author, suggesting a strong repeat purchase pattern driven by reader loyalty and narrative continuity.
+
+- **Stable Demand:** Minimal variation in performance across years indicates sustained popularity rather than short-lived trends.
+
+- **Market Concentration:** A relatively small number of titles account for a disproportionate share of overall engagement, highlighting a concentrated demand structure.
+
+- **Dual Track Market Value:** Series such as *ACOTAR* and *Fourth Wing* show signs of transitioning into “legacy status,” maintaining consistent but stabilizing demand. In contrast, *The Housemaid* represents a benchmark of both high popularity and strong consistency, positioning it as a key anchor title in the market.
+
+- **Author Influence:** Author identity plays a pivotal role alongside individual titles. While future performance of new releases cannot be guaranteed, historical data suggests that established authors such as Freida McFadden and Rebecca Yarros are likely to continue driving strong demand in the near future.
 
 ---
 
-## 💡 Business Recommendations
+## Final Recommendations
 
-- Prioritize stocking top-performing titles with consistent demand  
-- Invest in books from high-performing authors and series  
-- Maintain inventory of multiple editions for popular titles  
-- Monitor similar future releases from proven authors  
+Based on the analysis, several clear actions emerge for optimizing inventory and shelf strategy.
+
+**Inventory and Shelf Strategy**
+
+* Top-performing titles such as *Fourth Wing*, *The Housemaid*, *Verity*, and *Onyx Storm* should remain a priority in both stocking and in-store placement. These titles represent consistent demand and should be treated as core inventory, with sufficient stock depth to minimize the risk of stockouts. Where possible, all books within each series should be made available to fully capture repeat-purchase behavior.(very important)
+
+* These titles should also be displayed in close proximity to one another, reinforcing discovery within the same series and author. This is particularly relevant for high-performing genres such as "romantasy," which show sustained popularity and strong cross title engagement. Grouping similar books together can improve visibility and support cross selling of related high ROI titles.
+
+**The Repeat Purchase Pattern:**
+
+* The analysis highlights a very clear repeat purchase pattern: readers who engage with one title in a series are highly likely to continue with subsequent installments and explore additional works by the same author. Retail strategies should therefore leverage this behavior by aligning shelf organization with series, authors, and thematic similarity, effectively guiding customers along a natural progression of discovery.
+
+**From an operational perspective:**
+
+inventory allocation should reflect a tiered approach. Established bestsellers should receive higher inventory allocation and prominent placement, while secondary titles within the same ecosystem can support discovery and add breadth. New or emerging releases from already successful authors should be closely monitored and quickly incorporated into inventory, as they are likely to benefit from existing demand and brand recognition.
+
+In conclusion, it is of vital important to continuously track new releases and emerging trends, as shifts in consumer preference can introduce new high performing titles. However, the current data (2024–2025) shows strong consistency among top performers, suggesting that established titles and authors will continue to anchor demand in the near term.
+
+Overall, the findings support a strategy centered on prioritizing proven high demand titles, structuring shelves around series and authors, and maintaining flexibility to respond quickly to new successful releases. 
 
 ---
 
-## 📊 Visualizations
-
-*(Insert your charts here)*
-
-Example:
-```markdown
-![Top Books](images/top_books.png)

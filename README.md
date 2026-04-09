@@ -2,7 +2,7 @@
 
 ## Executive Summary
 
-This project analyzes data from the Top 100 Amazon Bestseller lists using Excel, Python, and Power BI to identify key patterns in book performance over recent years. The objective is to support data-driven decision-making for book retailers by informing stocking strategies for 2026–2027.The analysis addresses the following questions:
+This project analyzes data from the Top 100 Amazon Bestseller lists using Excel, Python, and Power BI to identify key patterns in book performance over recent years. The objective is to support data driven decision-making for book retailers by informing stocking strategies for 2026–2027. The analysis addresses the following questions:
 
 1. Which titles and authors should receive the majority of shelf space and inventory allocation?
 2. Which books demonstrate consistent demand and represent low-risk investments?
@@ -15,9 +15,9 @@ Additionally, the analysis supports inventory planning by identifying titles wit
 
 Major book retailers worldwide face ongoing inventory allocation challenges due to limited shelf space, a large volume of titles, and continuous new releases. These constraints create several key challenges:
 
-1. Demand Uncertainty: Retailers must determine which books will sustain popularity and which will decline, making it difficult to balance inventory effectively.
-2. Financial Risk: Poor stocking decisions can lead to unsold inventory or missed sales opportunities, directly impacting revenue.
-3. Author and Series Strategy: Retailers must decide which authors and series to prioritize, promote, and expand in-store based on their ability to drive consistent demand.
+**1. Demand Uncertainty:** Retailers must determine which books will sustain popularity and which will decline, making it difficult to balance inventory effectively.
+**2. Financial Risk:** Poor stocking decisions can lead to unsold inventory or missed sales opportunities, directly impacting revenue.
+**3. Author and Series Strategy:** Retailers must decide which authors and series to prioritize, promote, and expand in-store based on their ability to drive consistent demand.
    
 In essence, the core challenge is deciding which books to stock, in what quantity, and how to allocate shelf space under conditions of uncertainty.
 
@@ -25,7 +25,7 @@ This recent years trands explorations will allow to answer some of those questio
 
 ## Analysis:
 
-Which books have sold the most copies in recent years and demonstrate sustained high demand?
+**Which books have sold the most copies in recent years and demonstrate sustained high demand?**
 
 We begin by analyzing the highest-performing titles based on a combination of metrics, including number of reviews, ratings, frequency of appearance, and an aggregated popularity score across the years 2023, 2024 and 2025 for the bigger picture. And then we narrowed down our dataset to 2024 and 2025 find out the very recent trrands and patterns of the readers.
 
@@ -69,7 +69,7 @@ Interestingly, the normalized data identifies "The Housemaid" as the absolute ma
 ![IMG_3366](https://github.com/user-attachments/assets/f4399a33-7314-4a98-9562-559001cf2c19)
 
 
-While Fourth Wing and its sequels show strong, stable engagement, older hits like the ACOTAR series have seen their relative impact drop significantly, signaling a transition from active growth to legacy status. 
+While Fourth Wing and its sequels show **strong, stable engagement,**  older hits like the *+ACOTAR** series have seen their relative impact drop significantly, signaling a transition from active growth to legacy status. 
 
 Consequently, this seemingly contrasting information from the previous chart might suggest that the 2026/27 strategy should focus on the rising momentum of specific sequels like The Housemaid's Secret, which are successfully converting existing brand loyalty into sustained market dominance.
 
@@ -83,7 +83,7 @@ Together, these datasets suggest a dual-track strategy for 2026/27 that prioriti
 
 ![IMG_3369](https://github.com/user-attachments/assets/0378176c-044e-4d54-a67b-e923a3306b2a)
 
-To finish off our analysis, we also applied our popularity score to authors. It did not come as a surprise that although the dataset was now limited to 2024–2025, it further confirmed the dual-track market value insight we obtained from the full three-year comparison. This confirms that, despite the 2024 performance plateau, established authors like Freida McFadden continue to provide a high-performance ceiling and a guaranteed revenue floor that anchors the market. 
+To finish off our analysis, we also applied our **popularity score** to authors. It did not come as a surprise that although the dataset was now limited to 2024–2025, it further confirmed the dual-track market value insight we obtained from the full three year comparison. This confirms that, despite the 2024 performance plateau, established authors like Freida McFadden continue to provide a high performance ceiling and a guaranteed revenue floor that anchors the market. 
 
 Consequently, priority for 2026/27 releases should be reserved for McFadden to maintain this absolute stability, while simultaneously fast-tracking new titles from Rebecca Yarros to capitalize on the explosive, viral momentum that currently drives the industry's growth curve.
 
@@ -147,7 +147,7 @@ The raw dataset required several cleaning and preprocessing steps to ensure cons
 
 ---
 
-## 📈 Key Insights
+## Key Insights
 
 - **Top Performers:** Titles such as *Fourth Wing*, *The Housemaid*, *Verity*, and *Onyx Storm* consistently dominate the ranking across the analyzed years.
 
@@ -165,9 +165,11 @@ The raw dataset required several cleaning and preprocessing steps to ensure cons
 
 ## Final Recommendations:
 
+
 Based on the analysis, several clear actions emerge for optimizing inventory and shelf strategy.
 
 **Inventory and Shelf Strategy**
+
 
 * Top-performing titles such as *Fourth Wing*, *The Housemaid*, *Verity*, and *Onyx Storm* should remain a priority in both stocking and in-store placement. These titles represent consistent demand and should be treated as core inventory, with sufficient stock depth to minimize the risk of stockouts. Where possible, all books within each series should be made available to fully capture repeat-purchase behavior.(very important)
 
@@ -175,11 +177,14 @@ Based on the analysis, several clear actions emerge for optimizing inventory and
 
 **The Repeat Purchase Pattern:**
 
+
 * The analysis highlights a very clear repeat purchase pattern: readers who engage with one title in a series are highly likely to continue with subsequent installments and explore additional works by the same author. Retail strategies should therefore leverage this behavior by aligning shelf organization with series, authors, and thematic similarity, effectively guiding customers along a natural progression of discovery.
 
 <img width="1536" height="1024" alt="IMG_3382" src="https://github.com/user-attachments/assets/815b1947-718c-4322-b3b4-537cab768d9a" />
 
+
 **From an operational perspective:**
+
 
 * Inventory allocation should reflect a structured, multi-levelled approach. Established bestsellers should receive higher inventory allocation and prominent placement, while secondary titles within the same ecosystem can support discovery and add breadth. New or emerging releases from already successful authors should be closely monitored and quickly incorporated into inventory, as they are likely to benefit from existing demand and brand recognition.
 

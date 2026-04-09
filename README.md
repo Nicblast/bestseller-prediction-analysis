@@ -167,9 +167,11 @@ Based on the analysis, several clear actions emerge for optimizing inventory and
 
 * The analysis highlights a very clear repeat purchase pattern: readers who engage with one title in a series are highly likely to continue with subsequent installments and explore additional works by the same author. Retail strategies should therefore leverage this behavior by aligning shelf organization with series, authors, and thematic similarity, effectively guiding customers along a natural progression of discovery.
 
+<img width="1536" height="1024" alt="IMG_3382" src="https://github.com/user-attachments/assets/815b1947-718c-4322-b3b4-537cab768d9a" />
+
 **From an operational perspective:**
 
-inventory allocation should reflect a tiered approach. Established bestsellers should receive higher inventory allocation and prominent placement, while secondary titles within the same ecosystem can support discovery and add breadth. New or emerging releases from already successful authors should be closely monitored and quickly incorporated into inventory, as they are likely to benefit from existing demand and brand recognition.
+* Inventory allocation should reflect a structured, multi-levelled approach. Established bestsellers should receive higher inventory allocation and prominent placement, while secondary titles within the same ecosystem can support discovery and add breadth. New or emerging releases from already successful authors should be closely monitored and quickly incorporated into inventory, as they are likely to benefit from existing demand and brand recognition.
 
 In conclusion, it is of vital important to continuously track new releases and emerging trends, as shifts in consumer preference can introduce new high performing titles. However, the current data (2024–2025) shows strong consistency among top performers, suggesting that established titles and authors will continue to anchor demand in the near term.
 

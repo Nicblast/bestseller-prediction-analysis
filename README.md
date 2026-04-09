@@ -135,13 +135,13 @@ The raw dataset required several cleaning and preprocessing steps to ensure cons
 
 ## **Methodology**:
 
-*The analysis followed a structured data-driven approach combining preprocessing, aggregation, and exploratory analysis. After cleaning and standardizing the dataset, records were grouped by key dimensions such as *Book Title* and *Author* to evaluate performance across years.
+* The analysis followed a structured data-driven approach combining preprocessing, aggregation, and exploratory analysis. After cleaning and standardizing the dataset, records were grouped by key dimensions such as *Book Title* and *Author* to evaluate performance across years.
 
-*Exploratory Data Analysis (EDA) was performed to understand distributions and identify patterns in ratings, review counts, pricing, and title frequency. Comparisons were then made across 2024 and 2025 to assess consistency and identify stable versus emerging bestsellers.
+* Exploratory Data Analysis (EDA) was performed to understand distributions and identify patterns in ratings, review counts, pricing, and title frequency. Comparisons were then made across 2024 and 2025 to assess consistency and identify stable versus emerging bestsellers.
 
-*To enable consistent ranking, a *Popularity Score* was derived by combining multiple performance indicators into a single metric. In parallel, normalization techniques were applied to standardize review counts and support fair visual comparison across titles and years.
+* To enable consistent ranking, a *Popularity Score* was derived by combining multiple performance indicators into a single metric. In parallel, normalization techniques were applied to standardize review counts and support fair visual comparison across titles and years.
 
-*Finally, visualizations such as charts and heatmaps were used to surface trends and support interpretation of the results, enabling clear identification of top-performing books and authors.
+* Finally, visualizations such as charts and heatmaps were used to surface trends and support interpretation of the results, enabling clear identification of top-performing books and authors.
 
 * As a cherry on top a visually engaging PowerPoint presentation was created to communicate key findings clearly and effectively to stakeholders, enabling easy interpretation and supporting data-driven decision-making.
 

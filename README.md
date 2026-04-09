@@ -83,17 +83,21 @@ Ultimately, these authors represent the "critical path" for retail success, as t
 
 --
 
+## Dataset
 
-## 📊 Dataset
-- Source: [Add source if available]
-- Timeframe: 2024–2025 (2023 excluded due to inconsistencies)
-- Key Features:
-  - Title
-  - Author
-  - Price
-  - Rating
-  - Number of Reviews
-  - Year
+Source: Amazon Best Sellers lists (https://www.amazon.com/gp/bestsellers/2025/books)
+Time range: 2024–2025 (with initial exploration including 2023)
+Collection method: Manual extraction of the top 100 bestselling books per year
+Data storage: Consolidated into a structured Excel file for analysis
+Key features: Title, Author, Number of Reviews, Rating, Price, Year
+Scope: Cross-sectional and time-based comparison of bestseller performance
+
+Limitations:
+
+Manual data collection may introduce inconsistencies
+Bestseller lists reflect Amazon-specific consumer behavior
+Missing or inconsistent data for certain years (e.g., 2023)
+
 
 ---
 

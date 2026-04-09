@@ -11,7 +11,7 @@ This project analyzes data from the Top 100 Amazon Bestseller lists using Excel,
 Additionally, the analysis supports inventory planning by identifying titles with the highest likelihood of sustained demand, helping retailers minimize stock shortages and optimize sales in the upcoming market cycle.
 ---
 
-## Business Problem
+## Business Problem:
 
 Major book retailers worldwide face ongoing inventory allocation challenges due to limited shelf space, a large volume of titles, and continuous new releases. These constraints create several key challenges:
 
@@ -23,7 +23,7 @@ In essence, the core challenge is deciding which books to stock, in what quantit
 
 This recent years trands explorations will allow to answer some of those question by proving key insights based on real world data anad consumer's behaviour. Aamazon's besteller's list comaopred to other lists such as the new New York Times, even if less data is colected and the future is unpredictabel, provides the major vantage that reflects actual recent trands, preferences and on what readers and non reader alike are willing to spend their money on.
 
-## Business Analysis
+## Analysis:
 
 Which books have sold the most copies in recent years and demonstrate sustained high demand?
 
@@ -42,24 +42,32 @@ As a result, these books represent high-value inventory for retailers and should
 
 This pattern is further reinforced in the lower portion of the ranking, where multiple entries from the same series continue to appear among top-performing titles:
 
+
 ![IMG_3345](https://github.com/user-attachments/assets/a73d2e24-bbc9-47bb-9ed6-8fd341beec5f)
 
-Examples include:
+
+**Examples include:**
 “The Housemaid’s Secret”, “The Housemaid Is Watching”
 “A Court of Thorns and Roses”, “A Court of Mist and Fury”, “A Court of Wings and Ruin”
 These observations confirm the repeat-purchase phenomenon and highlight the importance of series-driven demand in driving sustained bestseller performance
 
-## Dual Track Market Value
+## Dual Track Market Value:
 
 **Which titles bring the lowest risk and guarantee the highest ROI?**
 
 Before narrowing down our data, "Normalization" was used to scale review data and enable fair comparison (comparison only) across titles and years by reducing the impact of extreme values. This helped identify relative performance and consistency patterns, although data inconsistencies in 2023 limited its reliability for final analysis.
 
+
+
 ![IMG_3367](https://github.com/user-attachments/assets/a66aff77-75c0-4b7c-a395-2c869edbcfa0)
+
+
 
 Interestingly, the normalized data identifies "The Housemaid" as the absolute market benchmark, maintaining a maximum saturation score of 1.0 that serves as the ceiling for all the other titles.
 
+
 ![IMG_3366](https://github.com/user-attachments/assets/f4399a33-7314-4a98-9562-559001cf2c19)
+
 
 While Fourth Wing and its sequels show strong, stable engagement, older hits like the ACOTAR series have seen their relative impact drop significantly, signaling a transition from active growth to legacy status. 
 
@@ -69,7 +77,7 @@ The insights integrate perfectly because they map the two different ways a book 
 
 Together, these datasets suggest a dual-track strategy for 2026/27 that prioritizes maintaining the reliable floor established by The Housemaid while at the same time aggressively scaling the high-velocity growth seen in the Fourth Wing and Onyx Storm series.
 
-## The Popularity Score applied to authors
+## The "Popularity Score" applied to authors:
 
 **Which author should be given priority in the following years with new releases?** 
 
@@ -83,7 +91,7 @@ Ultimately, these authors represent the "critical path" for retail success, as t
 
 --
 
-## Dataset
+## Dataset:
 
 * **Source:** Amazon Best Sellers lists (https://www.amazon.com/gp/bestsellers/2025/books)
 * **Time range:** 2024–2025 (with initial exploration including 2023)
@@ -92,7 +100,7 @@ Ultimately, these authors represent the "critical path" for retail success, as t
 * **Key features:** Title, Author, Number of Reviews, Rating, Price, Year
 * **Scope:** Cross-sectional and time-based comparison of bestseller performance
 
-**Limitations:**
+**Limitations:**:
 
 * Manual data collection may introduce inconsistencies
 * Bestseller lists reflect Amazon-specific consumer behavior
@@ -101,7 +109,7 @@ Ultimately, these authors represent the "critical path" for retail success, as t
 
 ---
 
-## **Data Cleaning & Preparation**
+## **Data Cleaning & Preparation**:
 
 The raw dataset required several cleaning and preprocessing steps to ensure consistency and reliability before analysis.
 
@@ -125,15 +133,17 @@ The raw dataset required several cleaning and preprocessing steps to ensure cons
 
 ---
 
-## **Methodology**
+## **Methodology**:
 
-The analysis followed a structured data-driven approach combining preprocessing, aggregation, and exploratory analysis. After cleaning and standardizing the dataset, records were grouped by key dimensions such as *Book Title* and *Author* to evaluate performance across years.
+*The analysis followed a structured data-driven approach combining preprocessing, aggregation, and exploratory analysis. After cleaning and standardizing the dataset, records were grouped by key dimensions such as *Book Title* and *Author* to evaluate performance across years.
 
-Exploratory Data Analysis (EDA) was performed to understand distributions and identify patterns in ratings, review counts, pricing, and title frequency. Comparisons were then made across 2024 and 2025 to assess consistency and identify stable versus emerging bestsellers.
+*Exploratory Data Analysis (EDA) was performed to understand distributions and identify patterns in ratings, review counts, pricing, and title frequency. Comparisons were then made across 2024 and 2025 to assess consistency and identify stable versus emerging bestsellers.
 
-To enable consistent ranking, a *Popularity Score* was derived by combining multiple performance indicators into a single metric. In parallel, normalization techniques were applied to standardize review counts and support fair visual comparison across titles and years.
+*To enable consistent ranking, a *Popularity Score* was derived by combining multiple performance indicators into a single metric. In parallel, normalization techniques were applied to standardize review counts and support fair visual comparison across titles and years.
 
-Finally, visualizations such as charts and heatmaps were used to surface trends and support interpretation of the results, enabling clear identification of top-performing books and authors.
+*Finally, visualizations such as charts and heatmaps were used to surface trends and support interpretation of the results, enabling clear identification of top-performing books and authors.
+
+* As a cherry on top a visually engaging PowerPoint presentation was created to communicate key findings clearly and effectively to stakeholders, enabling easy interpretation and supporting data-driven decision-making.
 
 ---
 
@@ -153,7 +163,7 @@ Finally, visualizations such as charts and heatmaps were used to surface trends 
 
 ---
 
-## Final Recommendations
+## Final Recommendations:
 
 Based on the analysis, several clear actions emerge for optimizing inventory and shelf strategy.
 

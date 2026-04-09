@@ -16,8 +16,11 @@ Additionally, the analysis supports inventory planning by identifying titles wit
 Major book retailers worldwide face ongoing inventory allocation challenges due to limited shelf space, a large volume of titles, and continuous new releases. These constraints create several key challenges:
 
 * **1. Demand Uncertainty:** Retailers must determine which books will sustain popularity and which will decline, making it difficult to balance inventory effectively.
+  
 * **2. Financial Risk:** Poor stocking decisions can lead to unsold inventory or missed sales opportunities, directly impacting revenue.
+
 * **3. Author and Series Strategy:** Retailers must decide which authors and series to prioritize, promote, and expand in-store based on their ability to drive consistent demand.
+
    
 In essence, the core challenge is deciding which books to stock, in what quantity, and how to allocate shelf space under conditions of uncertainty.
 
